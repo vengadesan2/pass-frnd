@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { toast } from 'react-toastify';
 import { Button } from 'react-bootstrap';
 import AxiosService from '../../utils/AxiosService';
+import ErrorScreen from '../ErrorScreen';
 // import ApiRoutes from '../../utils/ApiRoutes';
 
 function VerifyPassword() {

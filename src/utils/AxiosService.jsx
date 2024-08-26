@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const AxiosService = axios.create({
-    baseURL: "http://localhost:8000",
+    baseURL: "https://pass-back-uvok.onrender.com",
     // baseURL:"https://chillhub.onrender.com",
     headers : {
         "Content-Type" : "application/json",
